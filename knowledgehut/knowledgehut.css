@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#wrapper{
+    height: 100vh;
+    position: relative;
+}
+
+.head{
+    height: 100vh;
+    width: 54vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.head .bg1 img{
+    height: 100vh;
+    width: 54vw;
+}
+
+.head .bg2{
+    position: absolute;
+    top: 4rem;
+    left: 6rem;
+}
+
+
+.head .bg2 img{
+    width: 40vw;
+}
+
+.head .heading .heading1{
+    position: absolute;
+    top: 7.5rem;
+    left: 12.3rem;
+    font-size: 2rem;
+    color: white;
+}
+
+.head .heading .heading2{
+    position: absolute;
+    top: 9.8rem;
+    left: 9.8rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.leftside{
+    position: relative;
+}
+
+.leftside img{
+    height: 4rem;
+    width: 13rem;
+    position: absolute;
+    top: 7rem;
+    left: 7rem;
+}
+
+.leftside h4{
+    position: absolute;
+    top: 13rem;
+    left: 8rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.leftside p{
+    position: absolute;
+    top: 15rem;
+    left: 8rem;
+    font-size: 0.9rem;
+}
+
+.form1{
+    position: absolute;
+    top: 18rem;
+    left: 8rem;
+    user-select: none;
+}
+
+.form2{
+    position: absolute;
+    top: 23.5rem;
+    left: 8rem;
+    user-select: none;
+}
+
+.form1 label{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    font-size: 12px;
+}
+
+.form2 label{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+    font-size: 12px;
+}
+
+.form input{
+    height: 3.7rem;
+    width: 27rem;
+    border: 1px solid rgba(197, 197, 197, 0.5);
+    border-radius: 0.2rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.form input:hover{
+    border: 1px solid rgba(120, 118, 118, 0.5);
+}
+
+.form .form2 input:hover{
+    border: 1px solid rgba(120, 118, 118, 0.5);
+}
+
+.form1 input:focus{
+    border: 1px solid rgba(5, 202, 94, 0.5);
+}
+
+.form .form2 input:focus{
+    border: 1px solid rgba(218, 4, 4, 0.5);
+}
+
+.form .form2 input{
+    height: 3.7rem;
+    width: 27rem;
+    border: 1px solid rgba(197, 197, 197, 0.5);
+    border-radius: 0.2rem;
+}
+
+.leftside .forget{
+    position: absolute;
+    top: 28rem;
+    left: 8rem;
+}
+
+.leftside .forget a{
+    text-decoration: none;
+    font-size: 12px;
+    color: blue;
+}
+
+.leftside .forget::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 1.4rem;
+    left: 1px;
+    border-bottom: 1px solid blue;
+    width: 0;
+    transition-property: width;
+    transition-duration: 0.3s;
+}
+
+.leftside .forget:hover::after{
+    width: 35%;
+}
+
+
+.leftside .button button{
+    position: absolute;
+    top: 28rem;
+    left: 28rem;
+    height: 3.2rem;
+    width: 7rem;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.leftside .button i{
+    color: green;
+    font-size: 16px;
+    padding-top: 1.5px;
+    position: absolute;
+    top: 1rem;
+    left: 4.7rem;
+    transition-property: left;
+    transition-duration: 0.3s;
+}
+
+.leftside .button:hover i{
+    left: 5.5rem;
+}
+
+.leftside .button a{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 1rem;
+}
+
+.leftside .term{
+    position: absolute;
+    top: 35rem;
+    left: 15rem;
+    font-size: 12px;
+}
+
+.leftside .icon{
+    position: absolute;
+    top: 37rem;
+    left: 16rem;
+    font-size: 1rem;
+}
+
+.leftside .icon a{
+  color: rgb(103, 103, 103);
+}
+
+.leftside .icon i{
+    padding: 0.8rem;
+   border: 1px solid rgb(197, 197, 197);
+   border-radius: 50%;
+   margin-left: 0.5rem;
+}
+
+.leftside .icon1 i:hover{
+    background-color: red;
+    color: white;
+}
+
+.leftside .icon2 i:hover{
+    background-color: rgb(28, 124, 146);
+    color: white;
+}
+
+.footer{
+    position: absolute;
+    bottom: 1rem;
+    left: 12rem;
+    font-size: 11px;
+}
